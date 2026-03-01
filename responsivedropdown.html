@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsivedropdown.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">Dropdown</div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+            <label for="menu-toggle" class="dropdown-btn">&#9776;</label>
+
+            <ul class="dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+
+                <li>
+                    <input type="checkbox" id="services-toggle" class="submenu-toggle" />
+                    <label for="services-toggle">Sevices &#11206;</label>
+                    <ul class="submenu">
+                        <li><a href="#">Wed Design</a></li>
+
+                        <li>
+                            <input type="checkbox" id="market-toggle" class="submenu-toggle"/>
+                            <label for="market-toggle">Marketing &#11206;</label>
+                            <ul class="submenu">
+                                <li><a href="#">CEo</a></li>
+                                <li><a href="#">Content</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#">Development</a></li>
+                    </ul>
+                </li>
+                 <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
